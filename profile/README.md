@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🏹 Hunter by Team Hunter
+# 🏹 Team Hunter
 
 **AWS ECS → GCP Cloud Run, 데이터·파일까지 같은 주소로 무중단 이관하는 멀티클라우드 관제 플랫폼**
 
 2026 SoftBank Hackathon 2차 · Team Hunter
 
-[🎬 데모 영상]() · [🌐 라이브 서비스](https://sbhunter.site/) · [📑 발표 자료](https://app.notion.com/p/40b8bee9ada480f5a418e5f4fbc52268)
+[📑 발표 자료](https://app.notion.com/p/40b8bee9ada480f5a418e5f4fbc52268)
 
 </div>
 
@@ -36,9 +36,7 @@
 
 | 주소 | 용도 |
 |---|---|
-| `sbhunter.site` | 프로젝트 소개·진입 페이지 |
 | `console.sbhunter.site` | 운영자 관제 UI · `/api` |
-| `shop.sbhunter.site` | 이관 대상 데모 쇼핑몰 |
 | `files.sbhunter.site` | 공통 S3 호환 파일 API |
 
 인프라(AWS·GCP VPC, Site-to-Site VPN, HAProxy VM, 글로벌 LB, ECS·Cloud Run, CDC EC2, RDS·Cloud SQL, 관측 스택)는 모두 [hunter-infra](https://github.com/2026-softbank-2/hunter-infra)의 Terraform 코드로 관리한다.
